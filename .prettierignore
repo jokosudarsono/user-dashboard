@@ -1,0 +1,8 @@
+node_modules/
+coverage/
+dist/
+tmp/
+artifacts/
+
+*.md
+*.json

@@ -1,0 +1,92 @@
+/** font-size reset */
+$font-size-base: 0.75rem !default;
+$font-size-lg: $font-size-base * 1.25 !default;
+$font-size-sm: $font-size-base * 0.875 !default;
+$btn-line-height: 1.5 !default;
+
+// import library styles
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~rsuite-table/dist/css/rsuite-table.css';
+
+.main-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/** Navbar reset */
+.navbar.navbar-custom.bg-light,
+.button-dropdown-custom {
+  background-color: #fff !important;
+  border: none !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.15);
+
+  .dropdown-menu {
+    border-radius: 2px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: none;
+    margin-top: 10px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+    .dropdown-item {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+  }
+}
+
+.navbar.navbar-custom {
+  .dropdown-menu {
+    width: 300px;
+  }
+
+  .nav-link {
+    padding: 0 6px !important;
+  }
+
+  .dropdown-toggle:after {
+    content: none;
+  }
+
+  .user-dropdown .dropdown-menu {
+    width: 200px;
+  }
+}
+
+.button-dropdown-custom {
+  .dropdown-menu {
+    margin-top: 0px !important;
+  }
+}
+
+/** Box Shadow */
+.shadow-1 {
+  border: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.shadow-2 {
+  border: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.shadow-3 {
+  border: none !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.shadow-4 {
+  border: none !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.shadow-5 {
+  border: none !important;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.shadow-6 {
+  border: none !important;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
