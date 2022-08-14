@@ -28,6 +28,11 @@ $ yarn start
 $ yarn test
 ```
 
+### Build for Production
+```
+$ yarn build
+```
+
 ### Formatting Code
 ```
 $ yarn prettier
